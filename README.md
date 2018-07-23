@@ -56,3 +56,10 @@ int main()
     return 0;
 }
 ```
+
+---
+
+# To do
+
+- [ ] Add JAVA, Python, JavaScript, BrainFuck implementations
+- [ ] Add cycle: One language giving rise to another and then finally ends in the original code
