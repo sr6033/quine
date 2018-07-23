@@ -30,9 +30,9 @@ int main()
   	{
     	while ( getline (file,line) )
     	{
-			cout << line << '\n';
+    		cout << line << '\n';
     	}
-		file.close();
+    	file.close();
   	}
 
   	else cout << "Unable to open file";
@@ -51,6 +51,6 @@ int main()
 {
     string s = "#include<iostream>\n#include<fstream>\nusing namespace std;\n\nint main()\n{\tstring s = '#include<iostream>\\n#include<fstream>\\nusing namespace std;\\n\\nint main()\\n{\\tcout << s << endl;\\n\\treturn 0;\\n}';\n\tcout << s << endl;\n\treturn 0;\n}";  
     cout << s << endl;
-  	return 0;
+    return 0;
 }
 ```
